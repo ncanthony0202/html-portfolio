@@ -1,0 +1,157 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff;
+  color: #000;
+}
+header {
+  background-color: #d32f2f; /* red */
+  color: white;
+  padding: 2rem 0;
+}
+.nav-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 1.5rem;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: xx-large;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: x-large;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.Athletix {
+  color: #0d47a1;
+}
+
+main {
+  padding: 2rem;
+}
+
+footer {
+  background: #0d47a1; /* blue */
+  background-position-y: bottom;
+  color: white;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.roster-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1.5rem;
+}
+.roster-table th, .roster-table td {
+  border: 1px solid #ccc;
+  padding: 0.75rem;
+  text-align: center;
+}
+.roster-table th {
+  background-color: #f2f2f2;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.team-logo {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+}
+
+#age-groups li {
+list-style-type: none;
+display: inline;
+gap: 2rem;
+padding: 4rem;
+}
+
+#nineU {
+  padding-left: 50px;
+}
+
+.nineU {
+height: 200px;
+padding-left: 10px;
+}
+
+.eightU {
+  height: 200px;
+  padding-left: 10px;
+}
+
+.tenU {
+  height: 200px;
+  padding-left: 10px;
+}
+
+.elevenU {
+  height: 200px;
+  padding-left: 10px;
+}
+
+.twelveU {
+  height: 200px;
+  padding-left: 10px;
+}
+
+.thirteenU {
+  height: 200px;
+  padding-left: 10px;
+}
+
+.fourteenU {
+  height: 200px;
+  padding-left: 10px;
+}
+
+.fifteenU {
+  height: 200px;
+  padding-left: 10px;
+}
+
+.coach-roster {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1.5rem;
+}
+.coach-roster th, .coach-roster td {
+  border: 1px solid #ccc;
+  padding: 0.75rem;
+  text-align: center;
+}
+.coach-roster th {
+  background-color: #f2f2f2;
+}
+
+#Teams {
+  text-align: center;
+}
+
+.Teams {
+  text-align: center;
+}
+
+.excel {
+  text-align: center;
+}
+
